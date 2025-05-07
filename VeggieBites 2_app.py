@@ -107,8 +107,7 @@ def halaman_4():
             "keju cheddar/parmesan": "keju nabati dari kacang mete, nutritional yeast (untuk rasa cheesy)",
             "cream cheese": "tahu sutra + lemon + garam (di-blend)telur",
             "mentega": "minyak kelapa, margarin vegan, alpukat",
-            "mayones": "mayones vegan (tanpa telur), campuran tofu + mustard + lemonTahu sutra + lemon",     
-            }
+            "mayones": "mayones vegan (tanpa telur), campuran tofu + mustard + lemonTahu sutra + lemon",}
       
         hasil = pengganti.get(bahan.lower(), "bahan yang kamu cari ga ada nih, cari yang lain yuk")
         st.success(f"Pengganti untuk {bahan}: {hasil}")
